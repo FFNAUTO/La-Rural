@@ -482,8 +482,32 @@ ul {
     padding: 0 15px;
 }
 
+.logo-footer:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 210px;
+    width: 210px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
 .logo-footer img {
     width: 200px;
+}
+
+.footer-col .logo-footer {
+    margin-right: 30px;
 }
 
 .footer-col h4 {
@@ -556,7 +580,6 @@ ul {
 @media(max-width: 574px) {
     .footer-col {
         width: 100%;
-        margin-left: 50px;
     }
 
 
